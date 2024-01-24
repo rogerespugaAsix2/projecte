@@ -36,14 +36,14 @@ a:visited {
 }
 
 .button1{
-    position: absolute;
+    position: fixed;
     top: 40%;
     left: 10%;   
 
 }
 
 .button2{
-    position: absolute;ed  
+    position: fixed; 
     top: 55%;
     left: 10%;
 }
@@ -58,4 +58,16 @@ a:visited {
     font-family: 'Open Sans', sans-serif;
     height: 70%;
     width: 50%;
+}
+
+.formulari-basic{
+    height: 30%;
+}
+.form-control{
+    height: 4%;
+    width: 40%;
+}
+
+.contentBasicForm{
+    padding: 20px 20px;
 }

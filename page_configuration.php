@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -12,6 +12,6 @@
             <pre>sudo nano /etc/dhcp/dhcpd.conf</pre>
         <p>Después de realizar los cambios, haz clic en el botón para ir a la siguiente página.</p>
     <!-- Contenido de la página de configuración del archivo -->
-    <a href="index.php?page=4">Siguiente</a>
+    <a href="page_installation.php">Atras</a> . <a href="page_data_type_selection.php">Siguiente</a>
 </body>
 </html>

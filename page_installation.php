@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -19,7 +19,7 @@
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                         <li class="nav-item">
-                            <a class="nav-link activ text-white" aria-current="page" href="#">Home</a>
+                            <a class="nav-link activ text-white" aria-current="page" href="index.php">Inicio</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link text-white" href="#">Link</a>
@@ -34,6 +34,6 @@
         <p>Puedes instalarlo ejecutando el siguiente comando en tu terminal:</p>
             <pre>sudo apt-get install dhcp</pre>
     <!-- Contenido de la página de instalación -->
-    <a href="index.php">Atras</a> . <a href="page_basic_data_form.php">Siguiente</a>
+    <a href="page_configuration.php">Siguiente</a>
 </body>
 </html>

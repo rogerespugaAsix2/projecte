@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -29,7 +29,7 @@
         </div>
         <div class="mb-3">
             <label for="authorative" class="form-label">Domain Name</label>
-            <input type="text" pattern="[a-zA-Z0-9]+" minlength="5" maxlength="20" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+            <input type="text" pattern="[a-zA-Z0-9]+" minlength="5" maxlength="20" class="form-control" id="exampleInputEmail1" name="domain_name"aria-describedby="emailHelp">
         </div>
         <div class="mb-3">
             <label for="authorative" class="form-label">Servidor DNS</label>

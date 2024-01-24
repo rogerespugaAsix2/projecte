@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 
 <head>
     <meta charset="UTF-8">
@@ -11,8 +11,10 @@
 </head>
 
 <body>
+    <div class="contentBasicForm">
     <h3>Formulario para introducir datos básicos</h3>
-    <form class="form-basic position-absolute top-50 start-50 translate-middle" method="POST" action="page_show_fileconfig.php">
+    <!-- position-absolute top-50 start-50 translate-middle -->
+    <form class="formulari-basic form-basic" method="POST" action="page_show_fileconfig.php">
         <div class="mb-3">
             <label for="authorative" class="form-label">authoritative</label>
             <input type="text" class="form-control" name="authorative">
@@ -60,9 +62,12 @@
             <label for="authorative" class="form-label">Rage</label>
             <input type="text" class="form-control" name="range">
         </div>
-        <button type="submit" class=" button1 btn btn-primary ">Següent</button>    
+        <button type="submit" class=" button1 btn btn-primary ">Següent</button>
+        <a href="page_basic_data_form.php"><button type="submit" class=" button2 btn btn-primary ">Anterior</button></a>
+    
     </form>
-    <a href="page_basic_data_form.php"><button type="submit" class=" button2 btn btn-primary ">Anterior</button></a>
+    </div>
+    
     <!-- <a href="index.php">Atras</a> . <a href="page_basic_data_form.php">Siguiente</a> -->
     <!-- <form method='post' action='process.php'>
         <label for="authoritative">Authoritative</label>
