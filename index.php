@@ -13,6 +13,16 @@
 
 <body>
     <div class="content">
+        <?php
+        if (getenv('HOSTNAME')) {
+            $containerName = getenv('HOSTNAME');
+            echo "<script>console.log('Este script se está ejecutando en el contenedor: $containerName');</script>";
+        } else {
+            echo "<script>console.log('No se puede determinar el nombre del contenedor.')</script>";
+        }
+        ?>
+    </div>
+    <div class="content">
         <nav class="navbar navbar-expand-lg bg-primary">
             <div class="container-fluid">
                 <a class="navbar-brand text-black">IA - Global Project - ASIX2</a>

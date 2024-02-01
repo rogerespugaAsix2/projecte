@@ -1,0 +1,17 @@
+version: '3'
+services:
+  gp1asix2:
+    image: projecteasix2/gp1f5asix2_grup06:1.0
+    expose:
+      - "80"
+    environment:
+      - HOST_NAME=desenvolupadorgrup06.fjeclot.net
+  lb:
+    image: nginx:latest
+    volumes:
+      - ./nginx.conf:/etc/nginx/nginx.conf:ro
+    depends_on:
+      - gp1asix2
+    ports:
+      - "80:8000"
+
