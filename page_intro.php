@@ -6,6 +6,7 @@
     <title>Introducción</title>
 </head>
 <body>
+    <h1>RogerEspuga gp1f4a15 22/02/2024</h1>
     <h1>Bienvenido a la Aplicación de Configuración DHCP</h1>
     <p>Esta aplicación te guiará a través del proceso de configuración básica y avanzada del Protocolo de Configuración Dinámica de Host (DHCP).</p>
     <p>Por favor, sigue las instrucciones en cada página para completar la configuración.</p>
